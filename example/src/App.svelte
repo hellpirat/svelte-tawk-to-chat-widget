@@ -1,6 +1,5 @@
 <script>
 	import { SvelteTawkToChaTWidget } from '../../src'
-	export let name;
 </script>
 
 <main>
