@@ -3,7 +3,13 @@
 
 A component for chat widget [tawk.to]
 
+Example: [example]
+
 ## Basic usage
+
+```bash
+npm install svelte-tawk-to-chat-widget // or  yarn add svelte-tawk-to-chat-widget
+```
 
  ```js
 import { SvelteTawkToChaTWidget } from 'svelte-tawk-to-chat-widget'
@@ -56,3 +62,4 @@ Navigate to [localhost:5000]. You should see your app running. Edit a component 
 [Node.js]: https://nodejs.org
 [Rollup]: https://rollupjs.org
 [localhost:5000]: http://localhost:5000
+[example]: https://svelte-tawk-to-chat-widget.now.sh
