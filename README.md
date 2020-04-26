@@ -13,6 +13,8 @@ npm install svelte-tawk-to-chat-widget // or  yarn add svelte-tawk-to-chat-widge
 
  ```js
 import { SvelteTawkToChaTWidget } from 'svelte-tawk-to-chat-widget'
+// sapper import
+import SvelteTawkToChaTWidget from 'svelte-tawk-to-chat-widget/src/TawkToChatWidget.svelte'
 ```
 
 ```html
@@ -23,15 +25,15 @@ import { SvelteTawkToChaTWidget } from 'svelte-tawk-to-chat-widget'
 
 prop name            | type                   | default
 ---------------------|------------------------|-------------------------
-`propertyId`              | `string`                 | 
+`propertyId`              | `string`                 |
 `chatId`                | `string`                 | `"default"`
 
 
-### `propertyId` 
+### `propertyId`
 This props set a Property ID. You can get your Property Id from  Dashobard.
 
-### `chatId` 
-This props set a Chat Id. You can get your chat id from Direct Chat Link in your Dashboard. 	
+### `chatId`
+This props set a Chat Id. You can get your chat id from Direct Chat Link in your Dashboard.
 
 ```https://tawk.to/chat/{propertyId}/{chatId} ```
 
